@@ -7,7 +7,8 @@ using namespace std;
 int main() {
     int coef_colonne = 0;
     int coef_ligne = 0;
-
+    int matricea[0][0];
+    int matriceb[0][0];
     int nb_colonne = 0;
     int nb_ligne = 0;
     int i = 0;
@@ -18,9 +19,6 @@ int main() {
 
     cout << "choix du nombre de colonne : " << endl;
     cin >> nb_colonne;
-
-    int matricea[nb_ligne][nb_colonne];
-    int matriceb[nb_ligne][nb_colonne];
 
 
     for(i = 0; i < nb_ligne; i++)
